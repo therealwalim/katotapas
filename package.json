@@ -18,6 +18,7 @@
     "axios": "^0.21.1",
     "cypress": "^7.0.1",
     "lottie-web": "^5.7.6",
+    "netlify-cli": "^3.30.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
@@ -28,12 +29,11 @@
   },
   "scripts": {
     "start": "craco start",
-    "build": "CI=false && craco build",
+    "build": "craco build",
     "test": "cypress open",
     "eject": "react-scripts eject",
     "runHeadless": "cypress run --headless",
     "runHeaded": "cypress run --headed --browser firefox"
-
   },
   "eslintConfig": {
     "extends": [
